@@ -7,7 +7,6 @@ const services = [
   { title: 'Устный перевод — инструмент делового общения', image: "bg-[url('/images/services/image1057.png')]", icon: '' },
   { title: 'Консульская легализация', image: "bg-[url('/images/services/Rectangle614.png')]", icon: '' },
   { title: 'Истребование документов', image: "bg-[url('/images/services/Rectangle615.png')]", icon: '' }
-
 ]
 
 export default function Pta4uServices() {
@@ -28,7 +27,7 @@ export default function Pta4uServices() {
             classes.push(service.image)
             return <div key={i} className={'flex flex-col items-center'}>
               <div className={classes.join(' ')} />
-              <p className={'w-[336px] text-center mt-[16px] text-[18px] leading-[26px]'}>
+              <p className={'w-[336px] text-center mt-[16px] text-[14px] leading-[20px] lg:text-[18px] lg:leading-[26px]'}>
                 {service.title}
               </p>
             </div>

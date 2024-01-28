@@ -1,10 +1,10 @@
 import Pta4uPaymentsItem from "./pta4u-payments-item";
 
 const payments: Array<IPaymentsLinks> = [
-  { title: 'На сайте компании', icon: '/icons/earth.svg', url: ''},
-  { title: 'По QR коду', icon: '/icons/qr.svg', url: ''},
-  { title: 'На расчетный счет', icon: '/icons/doc.svg', url: ''},
-  { title: 'Картой/наличными', icon: '/icons/card.svg', url: ''},
+  { title: 'На сайте компании', short: 'На сайте', icon: '/icons/earth.svg', url: ''},
+  { title: 'По QR коду', short: 'По QR коду', icon: '/icons/qr.svg', url: ''},
+  { title: 'На расчетный счет', short: 'На РС', icon: '/icons/doc.svg', url: ''},
+  { title: 'Картой/наличными', short: 'Карта/наличка', icon: '/icons/card.svg', url: ''},
 ]
 
 export default function Pta4uPayments() {

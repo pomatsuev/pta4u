@@ -9,7 +9,7 @@ interface IProps {
 
 const sizesMap = {
   'md': 'leading-[12px] py-1.5 px-5 text-[13px] lg:text-[16px] lg:py-2.5 lg:px-5 lg:min-w-[140px] lg:h-[40px] lg:leading-5',
-  'xl': 'px-6 py-4 text-[16px] font-semibold leading-[18px]',
+  'xl': 'px-5 lg:px-6 py-4 text-[14px] lg:text-[16px] font-semibold leading-[18px]',
 }
 
 const typesMap = {

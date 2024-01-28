@@ -10,11 +10,11 @@ const items = [
 
 export default function Pta4uQuickBuy() {
   return <div className={'container h-full mx-auto px-5'}>
-    <h1 className={'text-[30px] font-semibold leading-9 text-center'}>Быстрое оформление заказа</h1>
-    <p className={'text-[18px] max-w-[780px] leading-5.5 text-center mx-auto mt-5 text-[#747373]'}>Время – очень драгоценный ресурс.
+    <h1 className={'text-[18px] lg:text-[30px] font-semibold leading-9 text-center'}>Быстрое оформление заказа</h1>
+    <p className={'text-[14px] lg:text-[18px] max-w-[780px] leading-5.5 text-center mx-auto mt-[11px] lg:mt-5 text-[#747373]'}>Время – очень драгоценный ресурс.
       Мы высоко ценим Ваше время, и предлагаем различные способы
       оформления и получения заказа.</p>
-    <div className={'mt-[46px] flex-col flex lg:flex-row gap-[26px] justify-between w-full'}>
+    <div className={'mt-[19px] lg:mt-[46px] flex-col flex lg:flex-row gap-[10px] lg:gap-[26px] justify-between w-full'}>
       {
         items.map((item) => {
           const classes = [
@@ -25,7 +25,7 @@ export default function Pta4uQuickBuy() {
           ]
           classes.push(item.color)
           return <div className={classes.join(' ')}>
-            <span className={'order-2 lg:order-1'}>{item.title}</span>
+            <span className={'order-2 lg:order-1 text-[14px] lg:text-[16xp]'}>{item.title}</span>
             <Image
               className={'order-1 lg:order-2 mr-[16px] lg:mr-0'}
               src={'/icons/qb/' + item.icon}

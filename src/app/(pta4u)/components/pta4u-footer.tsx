@@ -87,8 +87,8 @@ export default function Pta4uFooter() {
       </div>
       <div className={'flex mt-[41px] justify-between items-center'}>
         <div className={'flex gap-7'}>
-          <div className={'text-[#747373] font-[14px] leading-7'}>© 2006 - 2023 Группа компаний «ПОЛИГЛОТ»</div>
-          <div className={'flex gap-4 text-[#747373] font-[14px] leading-7'}>
+          <div className={'text-[#747373] text-[14px] leading-7'}>© 2006 - 2023 Группа компаний «ПОЛИГЛОТ»</div>
+          <div className={'flex gap-4 text-[#747373] text-[14px] leading-7'}>
             <Link href={'/'}>Privacy Police</Link>
             <Link href={'/'}>Terms of Use</Link>
           </div>
@@ -96,6 +96,6 @@ export default function Pta4uFooter() {
         <Image src={Social} alt={'social'} />
       </div>
     </div>
-    <div className={'lg:hidden text-[#747373] font-[14px] leading-7 py-[24px]'}>© 2006 - 2023 Группа компаний «ПОЛИГЛОТ»</div>
+    <div className={'lg:hidden text-[#747373] text-[13px] py-[24px]'}>© 2006 - 2023 Группа компаний «ПОЛИГЛОТ»</div>
   </div>
 }

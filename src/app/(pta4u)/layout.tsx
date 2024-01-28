@@ -17,16 +17,16 @@ export default function Pta4uLayout({ children }: { children: React.ReactNode}) 
     <div className={'mt-[51px] lg:mt-[105px]'}>
       <Pta4uServices />
     </div>
-    <div className={'mt-[81px]'}>
+    <div className={'mt-[30px] lg:mt-[81px]'}>
       <Pta4uQuality />
     </div>
-    <div className={'mt-[105px]'}>
+    <div className={'mt-[20px] lg:mt-[105px]'}>
       <Pta4uCalculated />
     </div>
-    <div className={'mt-[64px]'}>
+    <div className={'mt-[40px] lg:mt-[64px]'}>
       <Pta4uQuickBuy />
     </div>
-    <div className={'mt-[70px]'}>
+    <div className={'mt-[46px] lg:mt-[70px]'}>
       <Pta4uPayments />
     </div>
     <Pta4uFooter />
