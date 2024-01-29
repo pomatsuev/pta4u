@@ -7,7 +7,7 @@ import Pta4uButton from "./pta4u-button";
 export default function Pta4uHeader() {
   const menu = [
     { id: 1, title: "Услуги", url: '/' },
-    { id: 1, title: "Компания", url: '/' },
+    { id: 1, title: "Компания", url: '/about' },
     { id: 1, title: "Отзывы", url: '/' },
     { id: 1, title: "Оплата", url: '/' },
     { id: 1, title: "Контакты", url: '/' }

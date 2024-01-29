@@ -5,7 +5,7 @@ interface IProps {
 }
 
 export default function Pta4uPaymentsItem({ payment }: IProps) {
-  return <div className={'lg:w-[282px] h-[50px] text-[14px] lg:";-=text-[16px] bg-white rounded-lg flex justify-center items-center gap-3'}>
+  return <div className={'lg:w-[282px] h-[50px] text-[14px] lg:text-[16px] bg-white rounded-lg flex justify-center items-center gap-3'}>
     {payment.icon && <Image
         src={payment.icon}
         alt={payment.icon}

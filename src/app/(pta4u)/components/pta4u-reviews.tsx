@@ -31,7 +31,6 @@ export default function Pta4uReviews() {
         slidesPerView={"auto"}
         spaceBetween={30}
         freeMode={true}
-        freeModeSticky={true}
         autoplay={true}
         loop={true}
         modules={[Autoplay, Navigation, Pagination]}
