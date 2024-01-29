@@ -20,7 +20,7 @@ const footerMenu = [
     title: 'Компания',
     mr: 113,
     items: [
-      { title: 'Информация', url: '' },
+      { title: 'Информация', url: '/about' },
       { title: 'Преимущества', url: '' },
       { title: 'Команда', url: '' }
     ]
@@ -64,19 +64,20 @@ export default function Pta4uFooter() {
     <div className={'hidden lg:flex flex-col flex-1'}>
       <div className={'flex justify-between'}>
         {
-          footerMenu.map((item) => {
+          footerMenu.map((item, i) => {
             const styles: any = {};
             (item.mr > 0) && (styles.marginRight = item.mr + 'px');
             return <div
+              key={i}
               className={'flex flex-col gap-[21px]'}
               style={styles}
             >
               <h3 className={'font-semibold'}>{item.title}</h3>
               <ul>
                 {
-                  item.items.map((link) => {
-                    return <li className={'text-[#747373] leading-7'}>
-                      {link.title}
+                  item.items.map((link, i) => {
+                    return <li key={i} className={'text-[#747373] leading-7'}>
+                      <Link href={link.url}>{link.title}</Link>
                     </li>
                   })
                 }

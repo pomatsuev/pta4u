@@ -16,7 +16,7 @@ export default function Pta4uQuickBuy() {
       оформления и получения заказа.</p>
     <div className={'mt-[19px] lg:mt-[46px] flex-col flex lg:flex-row gap-[10px] lg:gap-[26px] justify-between w-full'}>
       {
-        items.map((item) => {
+        items.map((item, i) => {
           const classes = [
             'h-[70px] lg:h-[172px] w-full lg:w-[219px] rounded-[20px] lg:rounded-[30px]',
             'px-[37px] lg:px-[25px] py-[16px] lg:pt-[36px] lg:pb-[40px] lg:text-center',
@@ -24,7 +24,7 @@ export default function Pta4uQuickBuy() {
             'lg:justify-between'
           ]
           classes.push(item.color)
-          return <div className={classes.join(' ')}>
+          return <div key={i} className={classes.join(' ')}>
             <span className={'order-2 lg:order-1 text-[14px] lg:text-[16xp]'}>{item.title}</span>
             <Image
               className={'order-1 lg:order-2 mr-[16px] lg:mr-0'}

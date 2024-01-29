@@ -38,9 +38,9 @@ export default function Pta4uReviews() {
         {
           images.map((image, i) => {
             return <SwiperSlide key={i}>
-              <div style={{width: '138px', height: '128px'}}>
+              <div className="relative" style={{width: '138px', height: '128px'}}>
                 <Image
-                  objectFit={'scale-down'}
+                  className="object-scale-down"
                   fill={true}
                   src={image}
                   alt={'alt'}

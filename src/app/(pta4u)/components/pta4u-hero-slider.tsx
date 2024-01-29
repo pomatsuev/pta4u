@@ -41,10 +41,10 @@ export default function Pta4uHeroSlider({ slides }: IProps) {
                 </div>
               </div>
               <Image
+                className="object-cover"
                 src={slide.image}
                 alt={'img'}
                 fill={true}
-                objectFit={'cover'}
               />
             </div>
           </SwiperSlide>
