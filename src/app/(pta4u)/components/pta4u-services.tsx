@@ -1,12 +1,12 @@
 import {images} from "next/dist/build/webpack/config/blocks/images";
 
 const services = [
-  { title: 'Письменный перевод любой документации и текстов', image: "bg-[url('/images/services/image1056.png')]", icon: '' },
-  { title: 'Нотариальное заверение перевода', image: "bg-[url('/images/services/image1055.png')]", icon: '' },
-  { title: 'Апостиль для документов', image: "bg-[url('/images/services/Rectangle613.png')]", icon: '' },
-  { title: 'Устный перевод — инструмент делового общения', image: "bg-[url('/images/services/image1057.png')]", icon: '' },
-  { title: 'Консульская легализация', image: "bg-[url('/images/services/Rectangle614.png')]", icon: '' },
-  { title: 'Истребование документов', image: "bg-[url('/images/services/Rectangle615.png')]", icon: '' }
+  { title: 'Письменный перевод любой документации и текстов', image: "bg-[url('/images/services/image1056.png')]", icon: '', url: '/services/slug-one' },
+  { title: 'Нотариальное заверение перевода', image: "bg-[url('/images/services/image1055.png')]", icon: '', url:  '/services/slug-two' },
+  { title: 'Апостиль для документов', image: "bg-[url('/images/services/Rectangle613.png')]", icon: '', url: '' },
+  { title: 'Устный перевод — инструмент делового общения', image: "bg-[url('/images/services/image1057.png')]", icon: '', url: '' },
+  { title: 'Консульская легализация', image: "bg-[url('/images/services/Rectangle614.png')]", icon: '', url: '' },
+  { title: 'Истребование документов', image: "bg-[url('/images/services/Rectangle615.png')]", icon: '', url: '' }
 ]
 
 export default function Pta4uServices() {

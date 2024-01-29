@@ -8,12 +8,12 @@ const footerMenu = [
     title: 'Услуги',
     mr: 72,
     items: [
-      { title: 'Нотариальное заверение', url: '' },
-      { title: 'Письменный перевод', url: '' },
-      { title: 'Апостиль для документов', url: '' },
-      { title: 'Консульская легализация', url: '' },
-      { title: 'Устный перевод', url: ''},
-      { title: 'Истребование документов', url: '' }
+      { title: 'Нотариальное заверение', url:  '/services/slug-two' },
+      { title: 'Письменный перевод', url:  '/services/slug-one' },
+      { title: 'Апостиль для документов', url: '/services' },
+      { title: 'Консульская легализация', url: '/services' },
+      { title: 'Устный перевод', url: '/services'},
+      { title: 'Истребование документов', url: '/services' }
     ]
   },
   {
@@ -21,35 +21,35 @@ const footerMenu = [
     mr: 113,
     items: [
       { title: 'Информация', url: '/about' },
-      { title: 'Преимущества', url: '' },
-      { title: 'Команда', url: '' }
+      { title: 'Преимущества', url: '/about' },
+      { title: 'Команда', url: '/about' }
     ]
   },
   {
     title: 'Отзывы',
     mr: 99,
     items: [
-      { title: 'Отзывы на Яндекс', url: '' },
-      { title: 'Отзывы на 2gis', url: '' },
+      { title: 'Отзывы на Яндекс', url: '/reviews' },
+      { title: 'Отзывы на 2gis', url: '/reviews' },
     ]
   },
   {
     title: 'Оплата',
     mr: 69,
     items: [
-      { title: 'На сайте компании', url: '' },
-      { title: 'По QR коду', url: '' },
-      { title: 'На расчетный счет', url: '' },
-      { title: 'Наличными или картой', url: '' }
+      { title: 'На сайте компании', url: '/payment' },
+      { title: 'По QR коду', url: '/payment' },
+      { title: 'На расчетный счет', url: '/payment' },
+      { title: 'Наличными или картой', url: '/payment' }
     ]
   },
   {
     title: 'Контакты',
     mr: 0,
     items: [
-      { title: 'Владивосток, пр-т Красного знамени, 3', url: '' },
-      { title: '+7 902 480-02-62', url: '' },
-      { title: 'Все контакты', url: '' }
+      { title: 'Владивосток, пр-т Красного знамени, 3', url: '/contacts' },
+      { title: '+7 902 480-02-62', url: '/contacts' },
+      { title: 'Все контакты', url: '/contacts' }
     ]
   }
 ]

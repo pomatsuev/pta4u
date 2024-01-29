@@ -6,11 +6,11 @@ import Pta4uButton from "./pta4u-button";
 
 export default function Pta4uHeader() {
   const menu = [
-    { id: 1, title: "Услуги", url: '/' },
+    { id: 1, title: "Услуги", url: '/services' },
     { id: 1, title: "Компания", url: '/about' },
-    { id: 1, title: "Отзывы", url: '/' },
-    { id: 1, title: "Оплата", url: '/' },
-    { id: 1, title: "Контакты", url: '/' }
+    { id: 1, title: "Отзывы", url: '/reviews' },
+    { id: 1, title: "Оплата", url: '/payment' },
+    { id: 1, title: "Контакты", url: '/contacts' }
   ];
   return <div className={"container mx-auto flex items-center h-[50px] lg:h-[100px] " +
   "gap-6 lg:gap-10 xl:gap-20 px-5 justify-between lg:justify-start"}>

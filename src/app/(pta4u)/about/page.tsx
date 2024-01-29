@@ -16,9 +16,9 @@ export const metadata: Metadata = {
 }
 
 const breadcrumbs: IBreadcrumbs[] = [
-  { title: 'Главная', sort: 0, url: '/' },
-  { title: 'Компания', sort: 1},
-] as IBreadcrumbs[];
+  { title: 'Главная', sort: '0', url: '/' },
+  { title: 'Компания', sort: '1'},
+];
 
 const steps = [
   { title: 'Ваш заказ будет выполнен точно к установленному сроку', image: '/images/company/image1062.png' },
@@ -51,28 +51,28 @@ export default function AboutPage() {
                   <Image src={Recircle} alt={'img'}/>
                   <div>
                     <h1 className="text-white text-[18px] leading-[22px] lg:text-[30px] lg:leading-[36px]">45</h1>
-                    <p className="text-white text-[14px] leading-[16px] lg:text-[16px] lg:leading-[20px] max-w-[120px] lg:max-w-0">Языков перевода</p>
+                    <p className="text-white text-[14px] leading-[16px] lg:text-[16px] lg:leading-[20px] max-w-[120px] lg:max-w-none">Языков перевода</p>
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-[12px] items-start">
                   <Image src={Doc} alt={'img'}/>
                   <div>
                     <h1 className="text-white text-[18px] leading-[22px] lg:text-[30px] lg:leading-[36px]">1 200 000</h1>
-                    <p className="text-white text-[14px] leading-[16px] lg:text-[16px] lg:leading-[20px] max-w-[120px] lg:max-w-0" style={{ whiteSpace: 'wrap' }}>Страниц переведено за 2023</p>
+                    <p className="text-white text-[14px] leading-[16px] lg:text-[16px] lg:leading-[20px] max-w-[120px] lg:max-w-none" style={{ whiteSpace: 'wrap' }}>Страниц переведено за 2023</p>
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-[12px] items-start">
                   <Image src={Smile} alt={'img'}/>
                   <div>
                     <h1 className="text-white text-[18px] leading-[22px] lg:text-[30px] lg:leading-[36px]">Более 1000</h1>
-                    <p className="text-white text-[14px] leading-[16px] lg:text-[16px] lg:leading-[20px] max-w-[120px] lg:max-w-0" style={{ whiteSpace: 'wrap' }}>Довольных клиентов за 2023</p>
+                    <p className="text-white text-[14px] leading-[16px] lg:text-[16px] lg:leading-[20px] max-w-[120px] lg:max-w-none" style={{ whiteSpace: 'wrap' }}>Довольных клиентов за 2023</p>
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-[12px] items-start">
                   <Image src={Users} alt={'img'}/>
                   <div>
                     <h1 className="text-white text-[18px] leading-[22px] lg:text-[30px] lg:leading-[36px]">50</h1>
-                    <p className="text-white text-[14px] leading-[16px] lg:text-[16px] lg:leading-[20px] max-w-[120px] lg:max-w-0" style={{ whiteSpace: 'wrap' }}>Профессиональных переводчиков</p>
+                    <p className="text-white text-[14px] leading-[16px] lg:text-[16px] lg:leading-[20px] max-w-[120px] lg:max-w-none" style={{ whiteSpace: 'wrap' }}>Профессиональных переводчиков</p>
                   </div>
                 </div>
               </div>
